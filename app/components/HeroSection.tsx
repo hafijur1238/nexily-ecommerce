@@ -1,13 +1,15 @@
+"use client";
+
 import { Headphones, Shield, Truck } from "lucide-react";
 import Image from "next/image";
 
 export default function HeroSection() {
 	return (
-		<section className="w-full flex flex-col items-center px-4 sm:px-6">
+		<section className="w-full flex flex-col items-center px-4 sm:px-6 mt-48 sm:mt-0">
 			{/* Hero Banner - contained width to match content */}
 			<div className="w-full max-w-screen-xl bg-[#111b35] text-white relative rounded-xl overflow-hidden my-4 sm:my-6">
 				<div className="p-6 sm:p-8 md:p-12 pb-16 sm:pb-12">
-					<div className="max-w-[60%] sm:max-w-lg z-10 relative">
+					<div className="max-w-[90%] sm:max-w-lg z-10 relative">
 						<p className="text-base sm:text-lg md:text-xl mb-1 sm:mb-2">
 							Best Deal Online on smart watches
 						</p>
@@ -31,7 +33,7 @@ export default function HeroSection() {
 					</div>
 
 					{/* Smart Watch Image - responsive positioning */}
-					<div className="absolute right-[-20px]  sm:right-24 bottom-0 sm:bottom-auto sm:top-1/2 sm:transform sm:-translate-y-1/2">
+					<div className="absolute right-[-20px] sm:right-24 bottom-0 sm:bottom-auto sm:top-1/2 sm:transform sm:-translate-y-1/2">
 						<Image
 							src="https://images.unsplash.com/photo-1637160151664-0afc8ecd112f?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 							alt="Smart Watch"
@@ -88,7 +90,7 @@ export default function HeroSection() {
 							MONEY BACK GUARANTEE
 						</h3>
 						<p className="text-sm sm:text-base text-gray-600">
-							We reurn money within 30 days
+							We return money within 30 days
 						</p>
 					</div>
 				</div>
