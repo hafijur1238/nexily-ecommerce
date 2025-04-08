@@ -8,7 +8,7 @@ export default function ElectronicsBrands() {
 				{/* Top Electronics Brands */}
 				<div className="mb-12">
 					<div className="flex justify-between items-center mb-4">
-						<h2 className="text-xl font-medium">
+						<h2 className="text-xl sm:text-2xl font-medium">
 							<span className="text-blue-500">Top Electronics Brands</span>
 						</h2>
 						<Link href="#" className="text-sm flex items-center">
@@ -32,7 +32,8 @@ export default function ElectronicsBrands() {
 
 					<div className="border-b-2 border-blue-500 w-[220px] mb-6"></div>
 
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+					{/* Grid for brand cards */}
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 						{/* iPhone Card */}
 						<div className="rounded-lg overflow-hidden bg-gray-900 p-4 flex items-center relative">
 							<div className="flex flex-col">
@@ -117,7 +118,8 @@ export default function ElectronicsBrands() {
 				{/* Xbox and Promotional Cards */}
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 					{/* Xbox Console Section */}
-					<div className="md:col-span-2 bg-gray-100 rounded-lg p-6 relative overflow-hidden">
+					<div className="md:col-span-2 bg-gray-100 rounded-lg p-6 relative overflow-hidden sm:pr-8">
+						{/* Content */}
 						<div className="flex flex-col max-w-[50%]">
 							<span className="text-blue-500 text-sm mb-2">
 								THE BEST PLACE TO PLAY
@@ -149,6 +151,7 @@ export default function ElectronicsBrands() {
 							</button>
 						</div>
 
+						{/* Image */}
 						<div className="absolute right-4 bottom-0">
 							<Image
 								src="https://images.unsplash.com/photo-1621259181233-aa03cf592ea7?q=80&w=2658&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -159,6 +162,7 @@ export default function ElectronicsBrands() {
 							/>
 						</div>
 
+						{/* Price */}
 						<div className="absolute right-24 top-12 bg-blue-500 text-white rounded-full w-20 h-20 flex items-center justify-center font-bold text-xl">
 							$299
 						</div>
