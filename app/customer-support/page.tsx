@@ -36,7 +36,7 @@ export default function CustomerSupportPage() {
 						alt="Customer Support Agent"
 						width={400}
 						height={400}
-						className="rounded-full object-cover"
+						className="object-cover"
 					/>
 				</div>
 			</div>
@@ -154,7 +154,7 @@ export default function CustomerSupportPage() {
 					Dont find your answer? Contact with us
 				</h3>
 
-				<div className="flex justify-center gap-10">
+				<div className="flex flex-wrap justify-center gap-10">
 					{/* Call Us */}
 					<div className="bg-blue-100 p-6 rounded-lg w-72 shadow-lg">
 						<FaPhoneAlt className="text-blue-500 text-4xl mb-3" />
