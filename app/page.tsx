@@ -8,7 +8,7 @@ import TopSellSection from "./components/TopSellSection";
 
 const page = () => {
 	return (
-		<div className="pt-[190px]">
+		<div>
 			<HeroSection />
 			<BestDeals />
 			<CategoriesSection />

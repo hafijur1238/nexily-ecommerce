@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function HeroSection() {
 	return (
-		<section className="w-full flex flex-col items-center px-4 sm:px-6 mt-48 sm:mt-0">
+		<section className="w-full flex flex-col items-center px-4 sm:px-6 mt-0">
 			{/* Hero Banner - contained width to match content */}
-			<div className="w-full max-w-screen-xl bg-[#111b35] text-white relative rounded-xl overflow-hidden my-4 sm:my-6">
+			<div className="w-full max-w-screen-xl bg-[#111b35] text-white relative rounded-xl overflow-hidden my-4 sm:my-0">
 				<div className="p-6 sm:p-8 md:p-12 pb-16 sm:pb-12">
 					<div className="max-w-[90%] sm:max-w-lg z-10 relative">
 						<p className="text-base sm:text-lg md:text-xl mb-1 sm:mb-2">
@@ -45,7 +45,6 @@ export default function HeroSection() {
 					</div>
 				</div>
 			</div>
-
 			{/* Service Features */}
 			<div className="w-full max-w-screen-xl py-8 sm:py-12">
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

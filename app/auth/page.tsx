@@ -13,7 +13,7 @@ export default function AuthPage() {
 	const [agree, setAgree] = useState(false);
 
 	return (
-		<div className="min-h-screen flex justify-center items-center bg-gray-50 px-4">
+		<div className=" flex justify-center items-center bg-white px-4 sm:px-6 mb-20">
 			<div className="w-full max-w-xl sm:max-w-2xl bg-white rounded-lg shadow-lg p-6 sm:p-10">
 				{/* Tabs */}
 				<div className="flex border-b mb-8">

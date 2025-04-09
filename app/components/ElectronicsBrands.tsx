@@ -8,7 +8,7 @@ export default function ElectronicsBrands() {
 				{/* Top Electronics Brands */}
 				<div className="mb-12">
 					<div className="flex justify-between items-center mb-4">
-						<h2 className="text-xl sm:text-2xl font-medium">
+						<h2 className="text-xl font-medium">
 							<span className="text-blue-500">Top Electronics Brands</span>
 						</h2>
 						<Link href="#" className="text-sm flex items-center">
@@ -32,8 +32,7 @@ export default function ElectronicsBrands() {
 
 					<div className="border-b-2 border-blue-500 w-[220px] mb-6"></div>
 
-					{/* Grid for brand cards */}
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 						{/* iPhone Card */}
 						<div className="rounded-lg overflow-hidden bg-gray-900 p-4 flex items-center relative">
 							<div className="flex flex-col">
