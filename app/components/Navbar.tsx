@@ -157,7 +157,7 @@ const NavbarTopbarComponent = () => {
 							</Link>
 
 							<Link
-								href="/compare"
+								href="/products"
 								className="flex items-center gap-1 cursor-pointer"
 							>
 								<FaSyncAlt /> Compare
@@ -171,7 +171,7 @@ const NavbarTopbarComponent = () => {
 							</Link>
 
 							<Link
-								href="/help"
+								href="/need-help"
 								className="flex items-center gap-1 cursor-pointer"
 							>
 								<FaInfoCircle /> Need Help
