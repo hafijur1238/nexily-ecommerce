@@ -137,7 +137,7 @@ const NavbarTopbarComponent = () => {
 			<div
 				className={`w-full ${
 					isScrolled
-						? "fixed top-[60px] left-0 z-40 bg-white border-t shadow-sm mt-1"
+						? "fixed top-[75px] left-0 z-40 bg-white border-t shadow-sm mt-1"
 						: ""
 				}`}
 			>
